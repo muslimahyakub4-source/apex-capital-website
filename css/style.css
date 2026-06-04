@@ -32,8 +32,15 @@ header {
 }
 
 .nav-links a {
-  color: white;
+  color: #0a1f44;   /* dark blue for clear visibility */
   text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+  font-weight: 600;
+}.nav-links a:hover {
+  background: #0a1f44;
+  color: #ffffff;
+  border-radius: 5px;
 }
 
 /* HERO */
