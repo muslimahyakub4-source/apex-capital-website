@@ -109,4 +109,30 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background: #ffb400;
+  color: black;
+}html {
+  scroll-behavior: smooth;
+}.section, .card, .testimonial {
+  animation: fadeUp 1s ease-in-out;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
